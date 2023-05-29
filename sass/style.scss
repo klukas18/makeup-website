@@ -1,13 +1,55 @@
-* {
+@font-face {
+	font-family: 'Lavolta';
+	src: url(../fonts/Lavolta-rgPnB.otf) format('opentype');
+}
+
+*,
+*::before,
+*::after {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	text-decoration: none;
 }
 
 html {
+	font-family: 'Lavolta', sans-serif;
 	font-size: 62.5%;
 }
 
-nav {
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	background-color: beige;
+	font-size: 2.4rem;
+	height: 60px;
+	margin: 0 50px;
+	.nav__items {
+		display: flex;
+		width: 600px;
+		justify-content: space-around;
+		.nav__item {
+			position: relative;
+			letter-spacing: 1.5px;
+			margin: auto;
+			color: black;
+		}
+		.nav__item::after {
+			content: '';
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			height: 1px;
+			background: black;
+			transform: scaleX(0);
+			transform-origin: right;
+			transition: transform 0.3s ease-in;
+		}
+		.nav__item:hover::after {
+			transform: scaleX(1);
+			transform-origin: left;
+		}
+	}
 }
