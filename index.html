@@ -7,135 +7,227 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studio Wizażu Magda Narewska</title>
     <link rel="icon" type="image/svg" href="/img/logo.svg">
+    <script src="https://kit.fontawesome.com/0f1aaa71a4.js" crossorigin="anonymous"></script>
+    <script src="/js/script.js" defer></script>
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
 <body>
-    <nav>
-        <div class="nav">
-            <div class="nav__burger">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="nav__logo">
-                <a href="#home"><img src="./img/logo2-white.webp"></a>
-            </div>
-            <div class="nav__items">
-                <a href="#omnie" class="nav__item">O mnie</a>
-                <a href="#portfolio" class="nav__item">Portfolio</a>
-                <a href="#cennik" class="nav__item">Cennik</a>
-                <a href="#kontakt" class="nav__item">Kontakt</a>
-            </div>
-            <div class="nav__socials">
-                <a href="https://www.facebook.com/MagdaNarewskamakeup/" class="nav__social" target="_blank">
-                    <img src="./img/icons/icons8-facebook-32.png"></a>
-                <a href="https://www.instagram.com/magda.narewska_studio/" class="nav__social" target="_blank"><img
-                        src="./img/icons/icons8-instagram-32.png"></a>
+    <nav class="nav">
+        <div class="wrapper">
+            <button class="burger-btn">
+                <div class="burger-btn__box">
+                    <div class="burger-btn__bars"></div>
+                </div>
+            </button>
+
+            <div class="nav-container">
+                <div class="nav-container__logo">
+                    <a href="#home"><img src="./img/logo-text-black.svg"></a>
+                </div>
+                <div class="nav-container__items">
+                    <a href="#aboutme" class="nav__item">O mnie</a>
+                    <a href="#portfolio" class="nav__item">Portfolio</a>
+                    <a href="#offer" class="nav__item">Oferta</a>
+                    <a href="#contact" class="nav__item">Kontakt</a>
+                </div>
+                <div class="nav-container__socials">
+                    <a href="https://www.facebook.com/MagdaNarewskamakeup/" class="nav__social" target="_blank">
+                        <img src="./img/icons/icons8-facebook-black-32.svg"></a>
+                    <a href="https://www.instagram.com/magda.narewska_studio/" class="nav__social" target="_blank"><img
+                            src="./img/icons/icons8-instagram-black-32.svg"></a>
+                </div>
             </div>
         </div>
     </nav>
 
-    <header class="header">
-        <div class="hero-img"><img src="./img/logo-big.webp" class="logotype" /></div>
+    <header id="home" class="header">
+        <div class="hero-img"><img src="./img/logo.svg" class="logotype" /></div>
         <div class="header__arrow"><img src="/img/icons/chevron-white.svg" alt=""></div>
 
 
     </header>
-    <section id="omnie">
-        <h2 class="heading">O MNIE</h2>
+    <section id="aboutme" class="aboutme">
         <div class="wrapper">
+            <h2 class="heading">O MNIE</h2>
             <div class="intro">
                 <div class="intro__text">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, soluta laborum tempora
-                        exercitationem perferendis dolores, quas minima, odio praesentium adipisci enim voluptatibus
-                        quidem
-                        officia ad rerum explicabo cupiditate? Nam obcaecati quod natus neque fugit provident unde
-                        placeat
-                        perferendis. Accusantium, ab.</p>
+                    <p>Cześć, nazywam się Magda Narewska i jestem makijażystką.
+                        Od 8 lat makijaż to moja pasja, praca i sposób na życie.</p>
                     <br>
+                    <p>
+                        Moim głównym celem jest podkreślanie kobiecej urody, pomoc w odnalezieniu pewności siebie i
+                        rozwój świadomości na temat makeup'u. Pracowałam w Operze i Filharmonii Podlaskiej oraz w
+                        telewizji. Prowadziłam również warsztaty z podstaw charakteryzacji.</p>
                     <br>
-                    <br>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, soluta laborum tempora
-                        exercitationem perferendis dolores, quas minima, odio praesentium adipisci enim voluptatibus
-                        quidem
-                        officia ad rerum explicabo cupiditate? Nam obcaecati quod natus neque fugit provident unde
-                        placeat
-                        perferendis. Accusantium, ab.</p>
+                    <p>Caly czas udoskonalam swój warsztat. Na początku swojej drogi ukończyłam Międzynardowe Studium
+                        Dziewulskich, a później szkoliłam się pod
+                        okiem fantastycznych makijażystów. Ostatnio: Katsiaryny Karpovich, Kai Karpienko, Eweliny Krasoń
+                        i innych.
+                    </p>
                 </div>
                 <div class="intro__photo"><img src="/img/photo_magda.jpg" alt="Magda Narewska make Up Artist Photo">
                 </div>
             </div>
-            <div class="brands">
-                <div class="brands-slide">
-                    <img src="./img/icons/Mac_logo_logotype-PhotoRoom.png-PhotoRoom.png" />
-                    <img src="./img/icons/Mac_logo_logotype-PhotoRoom.png-PhotoRoom.png" />
-                    <img src="./img/icons/Mac_logo_logotype-PhotoRoom.png-PhotoRoom.png" />
-                    <img src="./img/icons/Mac_logo_logotype-PhotoRoom.png-PhotoRoom.png" />
-                    <img src="./img/icons/Mac_logo_logotype-PhotoRoom.png-PhotoRoom.png" />
-                    <img src="./img/icons/Mac_logo_logotype-PhotoRoom.png-PhotoRoom.png" />
-                    <img src="./img/icons/Mac_logo_logotype-PhotoRoom.png-PhotoRoom.png" />
-                    <img src="./img/icons/Mac_logo_logotype-PhotoRoom.png-PhotoRoom.png" />
+            <div class="brands-container">
+                <p>W mojej pracy niezwykle ważnym jest, aby klientka czuła się szczególnie zaopiekowana. W tym celu
+                    korzystam tylko kosmetyków najlepszej jakości, dokładnie sprawdzonych i nieuczulających.</p>
+                <div class="brands-slider">
+                    <div class="brands-slider__logos">
+                        <img src="./img/brands/Chanel.svg" />
+                        <img src="./img/brands/Yves Saint Laurent.svg" />
+                        <img src="./img/brands/Charlotte Tilbury.svg" />
+                        <img src="./img/brands/Tarte.svg" />
+                        <img src="./img/brands/Christian Dior New.svg" />
+                        <img src="./img/brands/Mac Cosmetics.svg" />
+                        <img src="./img/brands/Armani Beauty.svg" />
+                        <img src="./img/brands/Too Faced.svg" />
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="cards">
-            <div class="card one">
-                <button class="card-button"><img class="qestion-mark" src="./img/icons/icons8-help-24.png"></button>
-                <div class="card-text">
-                    <h1>Makijaż Ślubny</h1>
-                    <h2>Pakiet Ślubny</h2>
-                    <h2>Pakiet Ślubny</h2>
-                    <h2>Pakiet Ślubny</h2>
-                </div>
-
-            </div>
-            <div class="card two">
-                <button class="card-button"><img class="qestion-mark" src="./img/icons/icons8-help-24.png"></button>
-                <div class="card-text">
-                    <h1>Makijaż Okolicznościowy</h1>
-                    <h2>Biznesowy</h2>
-                    <h2>Sesyjny</h2>
-                    <h2>Dziwny</h2>
-                </div>
-
-            </div>
-            <div class="card three">
-                <button class="card-button"><img class="qestion-mark" src="./img/icons/icons8-help-24.png"></button>
-                <div class="card-text">
-                    <h1>Szkolenia</h1>
-                    <h2>Indywidualne</h2>
-                    <h2>Grupy</h2>
-                    <h2>Dla debili</h2>
+            <div class="cards-container">
+                <div class="cards">
+                    <p>Główny profil mojej działalności zawodowej to makijaże ślubne, okolicznościowe - do zdjęć
+                        prywatnych i projektów komercyjnych, jak również lekcje makijażu na własny użytek.</p>
+                    <div class="card one">
+                        <button class="card-button"><img src="./img/icons/icons8-help-24.png"></button>
+                        <div class="card-text">
+                            <h1>Makijaż Ślubny</h1>
+                            <h2>Pakiet Ślubny</h2>
+                            <h2>Makijaż Próbny</h2>
+                            <h2>Makijaż świty Panny Młodej</h2>
+                        </div>
+                    </div>
+                    <div class="card two">
+                        <button class="card-button"><img src="./img/icons/icons8-help-24.png"></button>
+                        <div class="card-text">
+                            <h1>Makijaż Okolicznościowy</h1>
+                            <h2>Biznesowy</h2>
+                            <h2>Sesyjny</h2>
+                        </div>
+                    </div>
+                    <div class="card three">
+                        <button class="card-button"><img src="./img/icons/icons8-help-24.png"></button>
+                        <div class="card-text">
+                            <h1>Szkolenia</h1>
+                            <h2>Indywidualne</h2>
+                            <h2>Grupy</h2>
+                        </div>
+                    </div>
+                    <p><strong>Makijaż Ślubny:</strong>
+                        Od kilku lat Panny Młode decydują się zaufać mi w swoim najważniejszym dniu.
+                        Jako profesjonalistka stworzę Twój wyjątkowy look uwzględniając indywidualne potrzeby i
+                        marzenia. Dzięki moim umiejętnościom i doświadczeniu sprawię abyś czuła się wspaniale podczas
+                        ceremonii ślubnej, przyjęcia weselnego oraz pięknie prezentowała się na zdjęciach.</p>
+                    <p><strong>Makijaż Okolicznościowy:</strong> W mojej pracy głównie stawiam na makijaże podkreślające
+                        urodę, świeże,
+                        kobiece, nieprzerysowane. Minimalistyczne, ale z efektem wow.
+                        Nowoczesne, zgodne z obecnymi trendami, ale ponadczasowe. Przygotuję Twoj wymarzony makijaż
+                        odpowiednio dobrany do okazji, na którą się wybierasz. Wesele, chrzciny, komunia,
+                        impreza urodzinowa, sylwester, spotkanie biznesowe, a może randka? Dołożę wszelkich starań abyś
+                        czuła się pięknie i swobodnie w każdej sytuacji.</p>
+                    <p><strong>Lekcja makijażu dla siebie:</strong>
+                        Czasami problemy z dobraniem odpowiednich kosmetyków czy nieznajomość techniki makijażu mogą
+                        skutecznie zniechęcić przed jego wykonaniem. W takich przypadkach warto wybrać się na lekcję
+                        makijażu. Na indywidualnej lekcji makijażu nauczysz się jak wykonywać go prawidłowo i
+                        estetycznie. Zadbam o Twój lepszy wizerunek, dobiorę produktycpod Twoje potrzeby oraz typ urody.
+                        Przeanalizuję Twoją kosmetyczkę i razem stworzymy piękny look.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section id="portfolio">
-        <h2 class="heading">PORTFOLIO</h2>
+    <section id="portfolio" class="portfolio">
         <div class="wrapper">
-        </div>
-    </section>
-    <section id="portfolio">
-        <div class="portfolio-slider">
-            <div id="image-track" class="img-track" data-mouse-down-at="0" data-prev-percentage="0">
-                <img src=" /img/portfolio/portfolio4.jpg" class="portfolio-image" draggable="false" />
-                <img src="/img/portfolio/portfolio13.jpg" class="portfolio-image" draggable="false" />
-                <img src="/img/portfolio/portfolio3.jpg" class="portfolio-image" draggable="false" />
-                <img src="/img/portfolio/portfolio12.jpg" class="portfolio-image" draggable="false" />
-                <img src="/img/portfolio/portfolio8.jpg" class="portfolio-image" draggable="false" />
-                <img src="/img/portfolio/portfolio2.jpg" class="portfolio-image" draggable="false" />
-                <img src="/img/portfolio/portfolio11.jpg" class="portfolio-image" draggable="false" />
+            <h2 class="heading">PORTFOLIO</h2>
+            <div class="carousel-container">
+                <i id="left" class="fa-solid fa-chevron-left" style="color: #381414;"></i>
+                <div class="carousel">
+                    <img class="carousel-img" src="/img/portfolio/portfolio1.jpeg" alt="" draggable="false" />
+                    <img class="carousel-img" src="/img/portfolio/portfolio11.jpeg" alt="" draggable="false" />
+                    <img class="carousel-img" src="/img/portfolio/portfolio13.jpg" alt="" draggable="false" />
+                    <img class="carousel-img" src="/img/portfolio/portfolio8.jpg" alt="" draggable="false" />
+                    <img class="carousel-img" src="/img/portfolio/portfolio9.jpeg" alt="" draggable="false" />
+                    <img class="carousel-img" src="/img/portfolio/portfolio4.jpeg" alt="" draggable="false" />
+                    <img class="carousel-img" src="/img/portfolio/portfolio5.jpg" alt="" draggable="false" />
+                </div>
+                <i id="right" class="fa-solid fa-chevron-right" style="color: #381414;"></i>
+            </div>
+            <button class="portfolio-button"><a href="portfolio.html">GALERIA</a></button>
+            <div class="portfolio-text">
+                <p>Przechodząc do powyższej galerii możesz zobaczyć niektóre makijaże wykonane dla potrzeb sesji
+                    zdjęciowych i nie tylko. Po więcej zdjęć, a także filmików zapraszam na moje media społecznościowe,
+                    na których staram się regularnie publikować swoje prace.</p>
             </div>
         </div>
-        <button class="portfolio-button"></button>
     </section>
 
-
-    <script src="/script.js"></script>
+    <section id="offer" class="offer">
+        <div class="wrapper">
+            <h2 class="heading">OFERTA</h2>
+            <p class="season">sezon 2023</p>
+            <div class="prices-box">
+                <div class="prices-box__line">
+                    <span>Makijaż Ślubny</span>
+                    <span class="price">300zł</span>
+                </div>
+                <div class="prices-box__line">
+                    <span>Makijaż Próbny</span>
+                    <span class="price">200zł</span>
+                </div>
+                <div class="prices-box__line">
+                    <span>Makijaż Okolicznościowy</span>
+                    <span class="price">250zł</span>
+                </div>
+                <div class="prices-box__line">
+                    <span>Makijaż Plenerowy</span>
+                    <span class="price">200zł</span>
+                </div>
+                <div class="prices-box__line">
+                    <span>Demakijaż</span>
+                    <span class="price">+30zł</span>
+                </div>
+                <div class="prices-box__line">
+                    <span>Niedziele i Święta</span>
+                    <span class="price">+50zł</span>
+                </div>
+                <div class="prices-box__line">
+                    <span>Makijaż do sesji zdjęciowej</span>
+                    <span class="price">indywidualnie</span>
+                </div>
+                <div class="prices-box__line">
+                    <span><strong>Pakiet Ślubny*</strong></span>
+                    <span class="price">2000zł</span>
+                </div>
+                <p>*W ramach Pakietu Ślubnego cały dzień jest zarezerwowany (według potrzeb) na wyłączność. Oferta
+                    dotyczy wykonania makijażu próbnego, ślubnego oraz 4 makijaży okolicznościowych dla osób z otoczenia
+                    Panny Młodej. Dojazd do 50km od lokalizacji studia gratis (powyżej tej odległości - płatny 2zł/1km w
+                    obie strony).</p>
+            </div>
+            <div class="prices-final">
+                <p>Zawsze aktualny cennik znajdziesz na moim <a href="https://www.facebook.com/MagdaNarewskamakeup/"
+                        target="_blank">fanpage'u</a></p>
+            </div>
+    </section>
+    <footer id="contact" class="contact">
+        <div class="contact-shadow">
+            <div class="wrapper">
+                <h2 class="heading">KONTAKT</h2>
+                <div class="contact-container">
+                    <img src="/img/icons/icons8-google-maps64.svg" />
+                    <p>Legionowa 9/1 lok. 119</p>
+                    <p>15-281 Białystok</p>
+                    <br>
+                    <p>narewska.m@gmail.com</p>
+                    <p>+48 504 197 007</p>
+                </div>
+            </div>
+            <div class="footer-bottom-text">&nbsp; &copy; <span class="footer-year"></span> //
+                Studio Wizażu Magda Narewska
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
