@@ -5,8 +5,8 @@
 	src: url(../fonts/Lavolta-rgPnB.otf) format('opentype');
 }
 @font-face {
-	font-family: 'Channe';
-	src: url(../fonts/Channe.otf) format('opentype');
+	font-family: 'YsabeauInfantLight';
+	src: url(../fonts/YsabeauInfant-Light.ttf) format('truetype');
 }
 
 *,
@@ -18,7 +18,7 @@
 }
 
 html {
-	font-family: 'Channe', sans-serif;
+	font-family: 'YsabeauInfantLight', sans-serif;
 	font-size: 62.5%;
 	scroll-behavior: smooth;
 	scroll-padding-top: 80px;
@@ -53,6 +53,7 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-family: 'Lavolta', sans-serif;
 	background-color: col.$light;
 	transition: 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
 	z-index: 100;
@@ -253,8 +254,9 @@ a {
 	text-align: center;
 	display: block;
 	padding: 40px;
-	font-size: 2.8rem;
+	font-size: 3rem;
 	color: col.$accent;
+	font-family: 'Lavolta', sans-serif;
 }
 
 .aboutme {
@@ -312,6 +314,8 @@ a {
 .brands-slider__logos {
 	display: inline-block;
 	animation: 60s slide infinite linear;
+	filter: invert(10%) sepia(35%) saturate(1374%) hue-rotate(318deg)
+		brightness(94%) contrast(97%);
 }
 .brands-slider__logos img {
 	height: 50px;
@@ -482,7 +486,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	font-size: 2rem;
-	font-family: 'channe', sans-serif;
+	font-family: 'YsabeauInfantLight', sans-serif;
 	font-weight: bold;
 	color: col.$accent;
 }
