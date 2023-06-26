@@ -4,8 +4,8 @@ const allNavItems = document.querySelectorAll('.nav__item')
 const sectionOne = document.querySelector('.header')
 const sliderCopy = document.querySelector('.brands-slider__logos').cloneNode(true)
 const carousel = document.querySelector('.carousel')
-firstImg = carousel.querySelectorAll('.carousel-img')[0]
-arrowIcons = document.querySelectorAll('.carousel-container i')
+let firstImg = carousel.querySelectorAll('.carousel-img')[0]
+let arrowIcons = document.querySelectorAll('.carousel-container i')
 const footerYear = document.querySelector('.footer-year')
 
 const handleNav = () => {

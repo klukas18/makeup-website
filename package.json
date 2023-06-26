@@ -1,0 +1,41 @@
+{
+	"name": "makeup",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/klukas18/makeup-website.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/klukas18/makeup-website/issues"
+	},
+	"homepage": "https://github.com/klukas18/makeup-website#readme",
+	"devDependencies": {
+		"@babel/core": "^7.22.5",
+		"@babel/preset-env": "^7.22.5",
+		"babel-core": "^4.7.16",
+		"babel-preset-env": "^1.4.0",
+		"browser-sync": "^2.29.3",
+		"gulp": "^4.0.0",
+		"gulp-autoprefixer": "^6.1.0",
+		"gulp-babel": "^8.0.0",
+		"gulp-clean": "^0.4.0",
+		"gulp-cssnano": "^2.1.3",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-kit": "^1.0.1",
+		"gulp-rename": "^2.0.0",
+		"gulp-sass": "^5.1.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"gulp-uglify": "^3.0.2",
+		"sass": "^1.63.6"
+	},
+	"overrides": {
+		"graceful-fs": "^4.2.11"
+	}
+}

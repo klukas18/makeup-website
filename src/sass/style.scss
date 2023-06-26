@@ -2,11 +2,11 @@
 
 @font-face {
 	font-family: 'Lavolta';
-	src: url(../fonts/Lavolta-rgPnB.otf) format('opentype');
+	src: url(/src/fonts/Lavolta-rgPnB.otf) format('opentype');
 }
 @font-face {
 	font-family: 'YsabeauInfantLight';
-	src: url(../fonts/YsabeauInfant-Light.ttf) format('truetype');
+	src: url(/src/fonts/YsabeauInfant-Light.ttf) format('truetype');
 }
 
 *,
@@ -98,7 +98,7 @@ a {
 
 	&:focus {
 		outline: none;
-		border: 1px solid col.$accent;
+		border: 1px solid transparent;
 		border-radius: 10px;
 	}
 	&:hover {
@@ -219,7 +219,7 @@ a {
 
 .header {
 	position: relative;
-	background-image: url('/img/hero-bg.jpeg');
+	background-image: url('/src/img/hero-bg.jpeg');
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -349,13 +349,13 @@ a {
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
 .one {
-	background-image: url(/img/card1.jpg);
+	background-image: url(/src/img/card1.jpg);
 }
 .two {
-	background-image: url(/img/card2.jpg);
+	background-image: url(/src/img/card2.jpg);
 }
 .three {
-	background-image: url(/img/card3.jpg);
+	background-image: url(/src/img/card3.jpg);
 }
 .card-button {
 	position: absolute;
@@ -544,7 +544,7 @@ a {
 }
 
 .contact {
-	background-image: url(/img/38235185_1799097543522306_6898734109019865088_n.jpg);
+	background-image: url(/src/img/contact-bg.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -587,6 +587,8 @@ a {
 	.nav-container__socials {
 		position: relative;
 		left: 0;
+		filter: invert(10%) sepia(35%) saturate(1374%) hue-rotate(318deg)
+			brightness(94%) contrast(97%);
 	}
 	.burger-btn {
 		display: block;

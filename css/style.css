@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Lavolta";
-  src: url(../fonts/Lavolta-rgPnB.otf) format("opentype");
+  src: url(/src/fonts/Lavolta-rgPnB.otf) format("opentype");
 }
 @font-face {
-  font-family: "Channe";
-  src: url(../fonts/Channe.otf) format("opentype");
+  font-family: "YsabeauInfantLight";
+  src: url(/src/fonts/YsabeauInfant-Light.ttf) format("truetype");
 }
 *,
 *::before,
@@ -16,7 +16,7 @@
 }
 
 html {
-  font-family: "Channe", sans-serif;
+  font-family: "YsabeauInfantLight", sans-serif;
   font-size: 62.5%;
   scroll-behavior: smooth;
   scroll-padding-top: 80px;
@@ -61,6 +61,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: "Lavolta", sans-serif;
   background-color: hsl(0, 47%, 93%);
   -webkit-transition: 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
   transition: 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
@@ -268,7 +269,7 @@ a {
 
 .header {
   position: relative;
-  background-image: url("/img/hero-bg.jpeg");
+  background-image: url("/src/img/hero-bg.jpeg");
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -308,8 +309,9 @@ a {
   text-align: center;
   display: block;
   padding: 40px;
-  font-size: 2.8rem;
+  font-size: 3rem;
   color: hsl(0, 47%, 15%);
+  font-family: "Lavolta", sans-serif;
 }
 
 .aboutme {
@@ -383,6 +385,8 @@ a {
   display: inline-block;
   -webkit-animation: 60s slide infinite linear;
           animation: 60s slide infinite linear;
+  -webkit-filter: invert(10%) sepia(35%) saturate(1374%) hue-rotate(318deg) brightness(94%) contrast(97%);
+          filter: invert(10%) sepia(35%) saturate(1374%) hue-rotate(318deg) brightness(94%) contrast(97%);
 }
 
 .brands-slider__logos img {
@@ -427,15 +431,15 @@ a {
 }
 
 .one {
-  background-image: url(/img/card1.jpg);
+  background-image: url(/src/img/card1.jpg);
 }
 
 .two {
-  background-image: url(/img/card2.jpg);
+  background-image: url(/src/img/card2.jpg);
 }
 
 .three {
-  background-image: url(/img/card3.jpg);
+  background-image: url(/src/img/card3.jpg);
 }
 
 .card-button {
@@ -612,7 +616,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   font-size: 2rem;
-  font-family: "channe", sans-serif;
+  font-family: "YsabeauInfantLight", sans-serif;
   font-weight: bold;
   color: hsl(0, 47%, 15%);
 }
@@ -685,7 +689,7 @@ a {
 }
 
 .contact {
-  background-image: url(/img/38235185_1799097543522306_6898734109019865088_n.jpg);
+  background-image: url(/src/img/38235185_1799097543522306_6898734109019865088_n.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

@@ -2,13 +2,13 @@
 
 @font-face {
 	font-family: 'Lavolta';
-	src: url(../fonts/Lavolta-rgPnB.otf) format('opentype');
+	src: url(/src/fonts/Lavolta-rgPnB.otf) format('opentype');
+}
+@font-face {
+	font-family: 'YsabeauInfantLight';
+	src: url(/src/fonts/YsabeauInfant-Light.ttf) format('truetype');
 }
 
-@font-face {
-	font-family: 'Channe';
-	src: url(../fonts/Channe.otf) format('opentype');
-}
 
 *,
 *::before,
@@ -152,10 +152,10 @@ html {
 }
 
 .footer-bottom-text {
-	font-family: 'Channe', sans-serif;
 	padding: 10px;
 	text-align: center;
 	text-transform: uppercase;
+	font-family: 'YsabeauInfantLight', sans-serif;
 	font-size: 2rem;
 	color: #ddd;
 	background-color: col.$accent;
