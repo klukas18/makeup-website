@@ -321,18 +321,11 @@ a {
 	height: 50px;
 	margin: 0 40px;
 }
-
 .cards {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	h1 {
-		font-size: 2.8rem;
-		color: col.$accent;
-		margin: 40px;
-		text-align: justify;
-	}
 	p {
 		font-size: 2.4rem;
 		margin: 40px;
@@ -636,7 +629,7 @@ a {
 			padding: 0;
 		}
 		.intro__photo {
-			max-width: 50%;
+			max-width: 75%;
 			padding-bottom: 20px;
 		}
 	}
