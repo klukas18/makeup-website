@@ -578,7 +578,7 @@ a {
 	background-color: col.$accent;
 }
 
-@media (width < 992px) {
+@media screen and (max-width: 992px) {
 	.nav-container__items,
 	.nav-container__logo {
 		display: none;
@@ -619,7 +619,7 @@ a {
 	}
 }
 
-@media (width < 768px) {
+@media screen and (max-width: 768px) {
 	.intro {
 		display: flex;
 		flex-wrap: wrap-reverse;
@@ -643,7 +643,7 @@ a {
 	}
 }
 
-@media (width < 576px) {
+@media screen and (max-width: 576px) {
 	.nav-container__items {
 		gap: 30px;
 	}
