@@ -2,11 +2,11 @@
 
 @font-face {
 	font-family: 'Lavolta';
-	src: url(./src/fonts/Lavolta-rgPnB.otf) format('opentype');
+	src: url('../../src/fonts/Lavolta-rgPnB.otf') format('opentype');
 }
 @font-face {
 	font-family: 'YsabeauInfantLight';
-	src: url(./src/fonts/YsabeauInfant-Light.ttf) format('truetype');
+	src: url('../../src/fonts/YsabeauInfant-Light.ttf') format('truetype');
 }
 
 *,
@@ -348,13 +348,13 @@ a {
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
 .one {
-	background-image: url(/src/img/card1.jpg);
+	background-image: url('../../dist/img/card1.jpg');
 }
 .two {
-	background-image: url(/src/img/card2.jpg);
+	background-image: url('../../dist/img/card2.jpg');
 }
 .three {
-	background-image: url(/src/img/card3.jpg);
+	background-image: url('../../dist/img/card3.jpg');
 }
 .card-button {
 	position: absolute;
@@ -543,7 +543,7 @@ a {
 }
 
 .contact {
-	background-image: url(/src/img/contact-bg.jpg);
+	background-image: url('../../dist/img/contact-bg.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
