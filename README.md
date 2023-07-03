@@ -14,3 +14,5 @@ Technologies nad skills used:
 - HTML / CSS
 - Vanilla JS
 - SASS / GULP / BEM
+
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
