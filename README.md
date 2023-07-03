@@ -1,6 +1,6 @@
 # Makeup Artist Info Page
 
-This is my first static website made for a makeup artist.
+This is my first static website made for a makeup artist. This page utilizes all the best practices of coding as well as some SEO related features.
 
 You can find live version here:
 https://narewskamakeup.pl
