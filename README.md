@@ -15,4 +15,3 @@ Technologies and skills used:
 - SASS / GULP / BEM
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,sass,gulp,bem)](https://skillicons.dev)
-![gsap-greensock-logo-48](https://github.com/klukas18/makeup-website/assets/134596428/6d10f478-a4b3-4fb1-aed4-8217c53543cf)
